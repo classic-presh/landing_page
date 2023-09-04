@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" href="static-page.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="major-container">
+      <header class="header__parent">
+        <div class="header__child">
+          <div class="header__child-1">
+            <div class="header__child-1--container">
+              <div class="geo-navigation">
+                <nav class="geo-navigation__container">
+                  <ul class="geo-navigation__list">
+                    <a href="#" class="geo-navigation__link--1">
+                      <li class="geo-navigation__item">Global</li>
+                    </a>
+
+                    <a href="#" class="geo-navigation__link--2">
+                      <li class="geo-navigation__item">Regions</li>
+                      <svg class="pointer-icon">
+                        <use
+                          xlink:href="img/sprite.svg#icon-chevron-down"
+                        ></use>
+                      </svg>
+                    </a>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="search-language">
+                <nav class="search-language__container">
+                  <ul class="search-language__list">
+                    <a href="#" class="search-language__link">
+                      <li class="search-language__item">
+                        <div class="search-icon"></div>
+                      </li>
+                    </a>
+
+                    <li class="search-language__item">
+                      <div class="language-icon"></div>
+                    </li>
+
+                    <a
+                      href="#"
+                      class="search-language__link search-language__link--3"
+                    >
+                      <li class="search-language__item">Select language</li>
+                      <svg class="pointer-icon">
+                        <use
+                          xlink:href="img/sprite.svg#icon-chevron-down"
+                        ></use>
+                      </svg>
+                    </a>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+          <label for="navi-toggle" class="navigation__button">LIST</label>
+
+          <div class="navigation__background">&nbsp;</div>
+
+          <div class="navigation__head">
+            <div class="navigation__logo">
+              <a href="#" class="navigation__logo--link">
+                <img
+                  src="img/world-health-organization-logo-blue.svg"
+                  alt="WHO logo"
+                />
+              </a>
+            </div>
+
+            <div class="navigation__line">&nbsp;</div>
+
+            <div class="navigation__place">
+              <a href="" class="navigation__place--link"
+                ><p>Regions</p>
+                <span>
+                  <svg class="navigation__pointer">
+                    <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Select Language</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Home</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Health Topics</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Countries</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Newsroom</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Emergencies</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Data</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">About WHO</a>
+                <svg class="pointer-icon navigation__pointer">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </li>
+            </ul>
+          </nav>
+        </div> -->
+
+        <div class="header__child">
+          <div class="header__child-2">
+            <div class="header__child-2--container">
+              <div class="header__logo">
+                <a href="#" class="header__logo--link">
+                  <img
+                    src="img/world-health-organization-logo-blue.svg"
+                    alt="WHO logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="navigation__toggle">
+              <span class="navigation__icon">&nbsp;</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header__child header__child--sticky">
+        <div class="header__child-3">
+          <div class="nav__container">
+            <div class="nav__container--content nav__container--content-1">
+              <a href="#" class="nav__container--link">
+                <svg class="home-icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">Health Topics</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">Countries</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">Newsroom</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">Emergencies</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">Data</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="nav__container--content">
+              <a href="#" class="nav__container--link">
+                <p class="nav__container--item">About WHO</p>
+                <svg class="pointer-icon">
+                  <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="main-container">
+        <section class="banner">
+          <div class="banner__content">
+            <h1 class="banner__text">About us</h1>
+            <a href="#" class="banner__button">Learn More</a>
+          </div>
+          <div class="banner__credit">
+            <p class="banner__credit--text">Credits</p>
+            <div class="banner__credit--sign"></div>
+          </div>
+        </section>
+
+        <section class="box box-1">
+          <div class="box__title">
+            <h2 class="box__title--text">Emergencies</h2>
+            <a href="#" class="box__title--link"
+              >All
+              <span>&rarr;</span>
+            </a>
+          </div>
+
+          <div class="box-1__element">
+            <div class="box-1__sub-element">
+              <h3 class="box-1__sub-element--heading">Covid-19</h3>
+              <a href="#" class="box-1__sub-element--card">
+                <figure class="box-1__sub-element--img">
+                  <picture class="box-1__sub-element--photo">
+                    <source
+                      srcset="
+                        img/covid-img-small.jpg 1x,
+                        img/covid-img-1x.jpg    2x
+                      "
+                      media="(max-width: 37.5em)"
+                    />
+                    <img
+                      srcset="img/covid-img-1x.jpg 1x, img/covid-img.jpg 2x"
+                      alt="COVID-19"
+                    />
+                  </picture>
+                </figure>
+                <div class="box-1__sub-element--text">
+                  <p>Advice, data and research</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-1__sub-element">
+              <h3 class="box-1__sub-element--heading">Mpox (Monkeypox)</h3>
+              <a href="#" class="box-1__sub-element--card">
+                <figure class="box-1__sub-element--img">
+                  <picture class="box-1__sub-element--photo">
+                    <source
+                      srcset="img/mpox-img-small.jpg 1x, img/mpox-img-1x.jpg 2x"
+                      media="(max-width: 37.5em)"
+                    />
+                    <img
+                      srcset="img/mpox-img-1x.jpg 1x, img/mpox-img.jpg 2x"
+                      alt="mpox"
+                    />
+                  </picture>
+                </figure>
+                <div class="box-1__sub-element--text">
+                  <p>Facts and trends</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-1__sub-element">
+              <h3 class="box-1__sub-element--heading">Ukraine</h3>
+              <a href="#" class="box-1__sub-element--card">
+                <figure class="box-1__sub-element--img">
+                  <picture class="box-1__sub-element--photo">
+                    <source
+                      srcset="
+                        img/ukraine-img-small.jpg 1x,
+                        img/ukraine-img-1x.jpg    2x
+                      "
+                      media="(max-width: 37.5em)"
+                    />
+                    <img
+                      srcset="img/ukraine-img-1x.jpg 1x, img/ukraine-img.jpg 2x"
+                      alt="Ukraine situation"
+                    />
+                  </picture>
+                </figure>
+                <div class="box-1__sub-element--text">
+                  <p>Situation and response</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-1__sub-element">
+              <h3 class="box-1__sub-element--heading">
+                Greater Horn of Africa
+              </h3>
+              <a href="#" class="box-1__sub-element--card">
+                <figure class="box-1__sub-element--img">
+                  <picture class="box-1__sub-element--photo">
+                    <source
+                      srcset="
+                        img/greaterhorn-img-small.jpg 1x,
+                        img/greaterhorn-img-1x        2x
+                      "
+                      media="(max-width: 37.5em)"
+                    />
+                    <img
+                      srcset="
+                        img/greaterhorn-img-1x.jpg 1x,
+                        img/greaterhorn-img.jpg    2x
+                      "
+                      alt="Horn of Africa"
+                    />
+                  </picture>
+                </figure>
+                <div class="box-1__sub-element--text">
+                  <p>Situation and response</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="box box-2">
+          <div class="box__title">
+            <h2 class="box__title--text">Latest news from WHO</h2>
+            <a href="#" class="box__title--link"
+              >All
+              <span>&rarr;</span>
+            </a>
+          </div>
+
+          <div class="box-2__element">
+            <div class="box-2__sub-element-1--content">
+              <a href="#" class="box-2__sub-element-1--card">
+                <figure class="box-2__sub-element-1--img"></figure>
+                <div class="box-2__sub-element-1--text">
+                  <div class="box-2__sub-element-1--date">
+                    <span>7 February 2023</span>
+                  </div>
+                  <p>
+                    WHO Director-General's briefing on earthquake in Türkiye and
+                    the Syrian Arab Republic at the 152nd session of the
+                    Executive Board
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-2__sub-element-2--content">
+              <a href="#" class="box-2__sub-element-2--card">
+                <figure class="box-2__sub-element-2--img-1"></figure>
+                <div class="box-2__sub-element-2--text">
+                  <div class="box-2__sub-element-2--date">
+                    <span>3 February 2023</span>
+                    <div>Departmental news</div>
+                  </div>
+                  <p>
+                    Global health leader Germany reaffirms strong support to WHO
+                    for 2023
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-2__sub-element-2--content">
+              <a href="#" class="box-2__sub-element-2--card">
+                <figure class="box-2__sub-element-2--img-2"></figure>
+                <div class="box-2__sub-element-2--text">
+                  <div class="box-2__sub-element-2--date">
+                    <span>3 February 2023</span>
+                    <div>Departmental news</div>
+                  </div>
+                  <p>WHO launches new roadmap on breast cancer</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="box-2__sub-element-2--content">
+              <a href="#" class="box-2__sub-element-2--card">
+                <figure class="box-2__sub-element-2--img-3"></figure>
+                <div class="box-2__sub-element-2--text">
+                  <div class="box-2__sub-element-2--date">
+                    <span>1 February 2023</span>
+                    <div>News release</div>
+                  </div>
+                  <p>African leaders unite in pledge to end AIDS in children</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="box box-3">
+          <div class="box-3__element box-3__element-1">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">Female Genital Mutilation</h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img
+                    src="img/female_mutilation.jpg"
+                    alt=""
+                    class="box-3__photo"
+                  />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Learn more</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="box-3__element box-3__element-2">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">Trans fat</h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img src="img/trans_fat.jpg" alt="" class="box-3__photo" />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Listen to the latest podcast</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="box-3__element box-3__element-3">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">
+                Earthquakes in Türkiye and the Syrian Arab Republic
+              </h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img
+                    src="img/executive_board.jpg"
+                    alt=""
+                    class="box-3__photo"
+                  />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Learn more</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="box-3__element box-3__element-4">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">WHO Video Channel</h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img
+                    src="img/video_channel.jpg"
+                    alt=""
+                    class="box-3__photo"
+                  />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Watch the videos</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="box-3__element box-3__element-5">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">Publications</h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img src="img/publications.jpg" alt="" class="box-3__photo" />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Find a publication</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="box-3__element box-3__element-6">
+            <div class="box-3__heading">
+              <h2 class="box-3__heading--text">Director-General's speeches</h2>
+            </div>
+            <div class="box-3__content">
+              <a href="" class="box-3__card">
+                <figure class="box-3__img">
+                  <img
+                    src="img/director's_speech.png"
+                    alt=""
+                    class="box-3__photo"
+                  />
+                </figure>
+                <div class="box-3__note">
+                  <p class="box-3__text">Read the speeches</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="box box-4">
+          <div class="box-4__wrapper">
+            <div class="box-4__element box-4__element-1">
+              <div class="box__title">
+                <h2 class="box__title--text">Campaigns</h2>
+                <a href="#" class="box__title--link"
+                  >All
+                  <span>&rarr;</span>
+                </a>
+              </div>
+              <div class="box-4__content">
+                <a href="" class="box-4__card">
+                  <figure class="box-4__img">
+                    <img
+                      src="img/health_for_all.png"
+                      alt=""
+                      class="box-4__photo"
+                    />
+                  </figure>
+                  <div class="box-4__note">
+                    <p class="box-4__text">
+                      75 years of improving public health
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="box-4__element box-4__element-2">
+              <div class="box__title">
+                <h2 class="box__title--text">Events</h2>
+                <a href="#" class="box__title--link"
+                  >All
+                  <span>&rarr;</span>
+                </a>
+              </div>
+
+              <div class="box-4__sub-element">
+                <div class="box-4__sub-element--content">
+                  <a href="#" class="box-4__sub-element--card">
+                    <figure
+                      class="box-4__sub-element--img box-4__sub-element--img-1"
+                    ></figure>
+                    <div class="box-4__sub-element--note">
+                      <div>
+                        <p class="box-4__sub-element--text">
+                          Global Youth Mobilization: final report launch and
+                          celebration events
+                        </p>
+                      </div>
+                      <span class="box-4__sub-element--date">
+                        <i class="fa-solid fa-calendar"></i>
+                        11-15 February 2023
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="box-4__sub-element--content">
+                  <a href="#" class="box-4__sub-element--card">
+                    <figure
+                      class="box-4__sub-element--img box-4__sub-element--img-2"
+                    ></figure>
+                    <div class="box-4__sub-element--note">
+                      <div>
+                        <p class="box-4__sub-element--text">
+                          International Epilepsy Day
+                        </p>
+                      </div>
+                      <span class="box-4__sub-element--date">
+                        <i class="fa-solid fa-calendar"></i>
+                        13 February 2023
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="box-4__sub-element--content">
+                  <a href="#" class="box-4__sub-element--card">
+                    <figure
+                      class="box-4__sub-element--img box-4__sub-element--img-3"
+                    ></figure>
+                    <div class="box-4__sub-element--note">
+                      <div>
+                        <p class="box-4__sub-element--text">
+                          Immunization and vaccines related implementation
+                          research advisory committee (IVIR-AC) - February 2023
+                        </p>
+                      </div>
+                      <span class="box-4__sub-element--date">
+                        <i class="fa-solid fa-calendar"></i>
+                        13-17 February 2023
+                      </span>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="box-4__sub-element--content">
+                  <a href="#" class="box-4__sub-element--card">
+                    <figure
+                      class="box-4__sub-element--img box-4__sub-element--img-4"
+                    ></figure>
+                    <div class="box-4__sub-element--note">
+                      <div>
+                        <p class="box-4__sub-element--text">
+                          Webinar: WHO People-centered framework for addressing
+                          AMR - information session ahead of global online
+                          consultation
+                        </p>
+                      </div>
+                      <span class="box-4__sub-element--date">
+                        <i class="fa-solid fa-calendar"></i>
+                        14 February 2023 00:00 – 01:30 CET
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer-wrapper">
+        <div class="main-footer">
+          <div class="main-footer--first">
+            <div class="main-footer__column">
+              <div class="main-footer__column-1">
+                <div class="main-footer__column--heading">
+                  <a href="#">Regions</a>
+                </div>
+                <div class="main-footer__column--content">
+                  <ul class="main-footer__column--list">
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">Africa</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">Americas</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Eastern Mediterranean</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link"> Europe</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        South-East Asia</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Western Pacific</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="main-footer__column-2">
+                <div class="main-footer__column--heading">
+                  <a href="#">Policies</a>
+                </div>
+                <div class="main-footer__column--content">
+                  <ul class="main-footer__column--list">
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Cyber Security</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link"> Ethics</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Permissions and licencing
+                      </a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Preventing sexual exploitation</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Terms of use</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="main-footer__column-3">
+                <div class="main-footer__column--heading">
+                  <a href="#">About us</a>
+                </div>
+                <div class="main-footer__column--content">
+                  <ul class="main-footer__column--list">
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link"> Careers</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link"> Library</a>
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Procurement</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Publications</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Frequently asked questions</a
+                      >
+                    </li>
+                    <li class="main-footer__column--item">
+                      <a href="" class="main-footer__column--link">
+                        Contact us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-footer__alt">
+              <div class="main-footer__alt--content">
+                <p>Regions</p>
+                <p>Policies</p>
+                <p>About us</p>
+              </div>
+
+              <div class="main-footer__alt--icon">
+                <span>
+                  <svg class="pointer-icon">
+                    <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+
+                <span>
+                  <svg class="pointer-icon">
+                    <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+
+                <span>
+                  <svg class="pointer-icon">
+                    <use xlink:href="img/sprite.svg#icon-chevron-down"></use>
+                  </svg>
+                </span>
+              </div>
+            </div>
+
+            <div class="main-footer__newsletter">
+              <div class="main-footer__newsletter--btn">
+                <a href="#" class="main-footer__newsletter--link">
+                  Subscribe to our newsletters
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-footer--second">
+            <a href="#" class="main-footer__logo">
+              <figure class="main-footer__logo--img">
+                <img
+                  src="img/world-health-organization-logo-1.svg"
+                  alt=""
+                  class="main-footer__logo--photo"
+                />
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <div class="secondary-footer">
+          <div class="secondary-footer__container">
+            <div class="legal-notice">
+              <a href="#" class="legal-notice__link">Privacy Legal Notice</a>
+            </div>
+
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite2.svg#icon-facebook2"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite2.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+                    <svg class="social__icon">
+                      <use xlink:href="img/sprite.svg#icon-tiktok"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="copyright">
+              <div class="copyright__year">
+                <span>&#169;</span>
+                2023
+              </div>
+              <div class="copyright__name"><a href="#">WHO</a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
